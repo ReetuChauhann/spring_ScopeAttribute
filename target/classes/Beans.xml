@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
+
+<!-- <bean class="com.incapp.beans.Employee" id="employee" scope="prototype"> -->
+
+
+
+<bean scope="singleton" id="employee" class="com.reetu.beans.Employee">
+
+<property value="Ramesh Gupta" name="name"/>
+
+<property value="XYZ" name="cname"/>
+
+<property value="56000" name="salary"/>
+
+<property value="21" name="age"/>
+
+</bean>
+
+</beans>
